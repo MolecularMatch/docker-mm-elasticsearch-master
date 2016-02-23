@@ -2,6 +2,7 @@ cluster.name: CLUSTER_NAME
 script.inline: on
 script.indexed: on
 bootstrap.mlockall: true
+node.master: true
 node.data: false
 network.publish_host: HOST_IP
 discovery.zen.ping.multicast.enabled: false
